@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #2b1e55;
+  background: linear-gradient(to bottom right, #f4b6e2, #eaeaea, #daf5b4);
+  font-family: Poppins, sans-serif;
+}
+
+nav,
+h1 {
+  font-family: Syne, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.view {
+  display: block;
+  text-align: end;
+  margin-top: 70px;
+}
+
+button {
+  background: #2b1e55;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: white;
+  width: 30%;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 600px) {
+  #bot {
+    flex-direction: column-reverse;
+  }
+}
+
+.prix {
+  background: #2b1e55;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+}
